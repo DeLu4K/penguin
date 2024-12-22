@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "penguin"
+version = "0.1.0"
+description = ""
+authors = ["Nando De Lucas Comino <131283440+DeLu4K@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+scikit-learn = "^1.6.0"
+pandas = "^2.2.3"
+ipykernel = "^6.29.5"
+seaborn = "^0.13.2"
+pytest = "^8.3.4"
+requests = "^2.32.3"
+flask = "^3.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
